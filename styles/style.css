@@ -130,5 +130,25 @@ main{
 .about-info{
     text-align: center;
 }
+/*  section what i do  */
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    width: 260px;
+    height: 280px;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.skill > img{
+    padding: 30px 0;
+}
+.skill-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 
